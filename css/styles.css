@@ -134,6 +134,9 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-image: url(../images/Header.jpg);
+  background-repeat: no-repeat;
 }
 .hero-title {
   margin-top: 0;
@@ -148,7 +151,6 @@
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: var(--primary-background-color);
 }
 
 /*Section*/
