@@ -121,7 +121,9 @@ img {
   line-height: 1.2x;
   letter-spacing: 0.02em;
 }
-
+.cont-nav img {
+  display: inline-block;
+}
 .cont-nav a:hover,
 .cont-nav a:focus {
   color: var(--accent-color);
@@ -139,9 +141,7 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
-  background-image: url(../images/Header.jpg);
-  background-repeat: no-repeat;
+  background-color: var(--secondary-text-color);
 }
 .hero-title {
   margin-top: 0;
@@ -505,6 +505,7 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  width: 370px;
 }
 .flex-container {
   display: flex;
