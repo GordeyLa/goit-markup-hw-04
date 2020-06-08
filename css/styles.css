@@ -69,6 +69,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -101,11 +102,11 @@ img {
 
 .site-nav .link.current {
   color: var(--accent-color);
+  border-color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  border-radius: 2px;
 }
 
-.site-nav .thisone {
-  color: var(--accent-color);
-}
 .cont-nav {
   display: flex;
   margin-left: auto;
@@ -353,6 +354,7 @@ img {
   fill: var(--white-color);
 }
 /*Clients*/
+
 .client-list {
   display: flex;
   list-style: none;
@@ -360,18 +362,23 @@ img {
   padding-left: 0;
 }
 
-.client-img {
+.logo-client {
+  width: 170px;
+  height: 90px;
+  fill: var(--secondary-background-color);
+  border: 1px solid var(--secondary-background-color);
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
-.client-list .client-img:not(:last-child) {
-  margin-right: 30px;
+.logo-client:hover,
+.logo-client:focus {
+  fill: var(--accent-color);
+  border: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
+
 /*Footer*/
 .page-footer {
   background-color: var(--footer-color);
