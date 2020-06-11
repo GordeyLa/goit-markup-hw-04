@@ -341,18 +341,24 @@ img {
   margin-right: 0;
 }
 .socials .icon {
-  margin-right: 10px;
-  width: 44px;
+  display: inline-block;
+  text-decoration: none;
   height: 44px;
+  width: 44px;
+  margin-right: 10px;
   border-radius: 50%;
   background-color: var(--white-color);
   fill: #afb1b8;
 }
-.socials .icon:focus,
-.socials .icon:hover {
+.socials .icon:hover,
+.socials .icon:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
+
 /*Clients*/
 
 .client-list {
@@ -553,7 +559,12 @@ img {
   margin-top: 0;
   margin-bottom: 4px;
   padding-left: 24px;
+  color: var(--primary-text-color);
 }
+.project-link {
+  text-decoration: none;
+}
+
 .project-list .img {
   padding-bottom: 20px;
 }
@@ -563,7 +574,8 @@ img {
   font-size: 16px;
   line-height: 1.87;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
   padding-left: 24px;
 }
 .project-list .text {
