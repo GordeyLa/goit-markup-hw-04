@@ -340,7 +340,7 @@ img {
 .socials .In_linked {
   margin-right: 0;
 }
-.socials .icon {
+.socials-link {
   display: inline-block;
   text-decoration: none;
   height: 44px;
@@ -350,13 +350,12 @@ img {
   background-color: var(--white-color);
   fill: #afb1b8;
 }
-.socials .icon:hover,
-.socials .icon:focus {
+.socials-link:hover,
+.socials-link:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
   width: 44px;
   height: 44px;
-  border-radius: 50%;
 }
 
 /*Clients*/
